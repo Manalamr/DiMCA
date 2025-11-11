@@ -1,0 +1,5 @@
+{
+  "failover_strategy": "hot-standby",
+  "domain_ids": [1, 2, 3],
+  "fallback_controller": "127.0.0.2"
+}

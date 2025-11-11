@@ -1,0 +1,5 @@
+{
+  "features": ["ArpConf", "PktRateS", "IPMacChg", "PortScan"],
+  "model_path": "controller/dmca_model.pkl",
+  "classification_type": "multi"
+}

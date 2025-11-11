@@ -1,0 +1,18 @@
+{
+  "mitigation": [
+    {
+      "action": "drop",
+      "condition": {
+        "ip_src": "10.0.0.99",
+        "pkt_rate": ">1000"
+      }
+    },
+    {
+      "action": "rate_limit",
+      "condition": {
+        "eth_type": "0x0806",
+        "rate": "10pps"
+      }
+    }
+  ]
+}

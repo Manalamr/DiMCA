@@ -1,0 +1,14 @@
+{
+  "default_forwarding": [
+    {
+      "switch": "s1",
+      "match": {"eth_type": "0x0800"},
+      "action": {"output": 2}
+    },
+    {
+      "switch": "s2",
+      "match": {"eth_type": "0x0806"},
+      "action": {"output": 3}
+    }
+  ]
+}
