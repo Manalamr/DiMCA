@@ -1,6 +1,6 @@
-# 🛡️ DMCA: Distributed Multi-Contextual Architecture for Secure SD-IoT
+# 🛡️ DiMCA: Distributed Multi-Contextual Architecture for Secure SD-IoT
 
-> **DMCA** is a distributed, adaptive, and P4-powered security framework designed to defend **Software-Defined IoT (SD-IoT)** networks against **coordinated ARP spoofing and DDoS attacks**. It features real-time detection, line-rate packet inspection, multi-controller resilience, and context-aware mitigation.
+> **DiMCA** is a distributed, adaptive, and P4-powered security framework designed to defend **Software-Defined IoT (SD-IoT)** networks against **coordinated ARP spoofing and DDoS attacks**. It features real-time detection, line-rate packet inspection, multi-controller resilience, and context-aware mitigation.
 
 ---
 
@@ -28,15 +28,15 @@
 ```
 DMCA/
 ├── controller/
-│   ├── dmca_mcp_agent.py          # Main MCPA logic (controllers, CPIA, CMLM)
-│   ├── dmca_model.pkl             # Pretrained CPIA ensemble model
+│   ├── DiMCA_mcp_agent.py          # Main MCPA logic (controllers, CPIA, CMLM)
+│   ├── DiMCA_model.pkl             # Pretrained CPIA ensemble model
 │   ├── config/
 │   │   ├── controller_policy.json
 │   │   ├── ml_config.json
 │   │   ├── block_policy.json
 │
 ├── topology/
-│   ├── dmca_topo.py               # Mininet topology with 4 IoT domains, 2 aggregator switches, LC1/LC2
+│   ├── DiMCA_topo.py               # Mininet topology with 4 IoT domains, 2 aggregator switches, LC1/LC2
 │
 ├── p4src/
 │   ├── dpsimodule.p4             # DPSI logic (parsers, tables, register logic for ARP & DDoS detection)
