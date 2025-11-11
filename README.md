@@ -137,7 +137,7 @@ Use `DiMCA_model.pkl` in your controller as:
 
 ```python
 from joblib import load
-model = load('dmca_model.pkl')
+model = load('DiMCA_model.pkl')
 ```
 
 ---
