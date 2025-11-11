@@ -133,7 +133,7 @@ The detection engine uses:
 * **Meta Learner**: ANN
 * **Feature set**: 21 fields from DPSI (e.g., ArpConf, PktRateS, IPMacChg)
 
-Use `dmca_model.pkl` in your controller as:
+Use `DiMCA_model.pkl` in your controller as:
 
 ```python
 from joblib import load
